@@ -19,23 +19,4 @@ public class RestClientWrapper implements HttpClientWrapper {
                 .body(responseType);
     }
 
-    @Override
-    public <T> T post(String url, Object body, Class<T> responseType) {
-        return null;
-    }
-
-    @Override
-    public <T> T put(String url, Object body, Class<T> responseType) {
-        return null;
-    }
-
-    @Override
-    public <T> T patch(String url, Object body, Class<T> responseType) {
-        return null;
-    }
-
-    @Override
-    public void delete(String url) {
-
-    }
 }
